@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0px;
+    background: url(03a28a0f34624e25c00b259438c244df.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.profile-card {
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+.top {
+    padding: 15px 15px;
+    color: #3e3e3e;
+    backdrop-filter: blur(20px);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+.bottom {
+    margin: 10px 0px;
+    padding: 15px 20px;
+    color: #3e3e3e;
+    backdrop-filter: blur(20px);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+}
+.bottom .bottom-card {
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+}
+.bottom .bottom-card .heading {
+   font-weight: bold;
+   text-align: center;
+   font-size: 25px; 
+}
+.bottom-card .bottom-card .info {
+    font-weight: bold;
+    font-size: 10px;
+}
+.btn{
+    color: rgb(110, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 20px;
+}
+.btn.filled {
+    cursor: pointer;
+}
+.top{
+    text-align: center;
+}
+.top .profile-circle{
+    width: 100px;
+    height: 100px;
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top .profile-image{
+    width: 90px;
+    height: 90px;
+    background: url(unnamed.webp);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.top .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.top .position{
+    font-size: 14px;
+    margin-top: 4px;
+    font-weight: 600;
+}
+.top .social-icons {
+    margin: 20px 0px;
+}
+.top .social-icons i {
+    padding: 0px 10px;
+    font-size: 20px;
+    color: black;
+}
